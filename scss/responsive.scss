@@ -1,0 +1,98 @@
+$mainColor: #0c7f86;
+$secondColor: #084b4f;
+
+@media (max-width: 600px) {
+    body {
+        background: #e5fff9;
+    }
+    header {
+        .container {
+            display: flex;
+            justify-content: center;
+        }
+    }
+    .content {
+        .container {
+            padding-bottom: 30px;
+            .coming-holder {
+                display: flex;
+                flex-direction: column;
+                .coming-text {
+                    width: 100%;
+                    h1 {
+                        padding-top: 40px;
+                        text-align: center;
+                        font-size: 60px;
+                        line-height: 70px;
+                    }
+                    .wave {
+                        flex-grow: 1;
+                    }
+                    .subtitle {
+                        font-size: 22px;
+                        letter-spacing: 10px;
+                        text-align: center;
+                        margin-bottom: 0px;
+                    }
+                    .coming-form {
+                        margin-top: 12px;
+                        flex-direction: column;
+                        justify-content: center;
+                        margin-bottom: 20px;
+                        .arrow {
+                            display: none;
+                        }
+                        & > * {
+                            margin: 16px;
+                        }
+                        input {
+                            padding: 10px 10px;
+                            box-shadow: none;
+                            border: 1px solid $secondColor;
+                            font-size: 13px;
+                        }
+                    }
+                    .links {
+                        flex-direction: row;
+                        justify-content: center;
+                        align-items: center;
+                        a {
+                            &:hover {
+                                color: white;
+                            }
+                        }
+                    }
+                }
+                .coming-img {
+                    .img-box {
+                        margin-bottom: 10px;
+                    }
+                }
+            }
+        }
+    }
+    .projects {
+        .container {
+            padding-top: 70px;
+            h2 {
+                text-align: center;
+                padding-bottom: 10px;
+            }
+            .cards {
+                justify-content: center;
+                gap: 25px;
+                row-gap: 55px;
+                .card {
+                    width: 33%;
+                    background-position: center;
+                    .card-links {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,76 @@
+$mainColor: #0c7f86;
+$secondColor: #084b4f;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins";
+}
+html {
+    overflow-x: hidden;
+}
+h1 {
+    font-size: 120px;
+    font-weight: 700;
+    line-height: 120px;
+    letter-spacing: -4px;
+    text-align: left;
+    vertical-align: top;
+    color: $mainColor;
+}
+h2 {
+    font-style: 48px;
+    font-weight: 800;
+    line-height: 94.5px;
+    color: $mainColor;
+}
+h3 {
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 54.6px;
+    color: $mainColor;
+}
+h4 {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 30px;
+    color: $mainColor;
+}
+.caption {
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 5px;
+    text-decoration: none;
+    color: $secondColor;
+}
+body {
+    background: linear-gradient(90deg, rgba(229, 255, 249, 1) 40%, rgba(184, 228, 218, 1) 40%);
+    position: relative;
+    font-size: 16px;
+    min-height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+.row {
+    display: flex;
+    flex-direction: row;
+}
+.col {
+    display: flex;
+    flex-direction: column;
+}
+.flex-wrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+.justify-center {
+    justify-content: center;
+}
+.justify-between {
+    justify-content: space-between;
+}
+.align-center {
+    align-items: center;
+}

@@ -1,0 +1,87 @@
+@media (max-width: 600px) {
+  body {
+    background: #e5fff9;
+  }
+  header .container {
+    display: flex;
+    justify-content: center;
+  }
+  .content .container {
+    padding-bottom: 30px;
+  }
+  .content .container .coming-holder {
+    display: flex;
+    flex-direction: column;
+  }
+  .content .container .coming-holder .coming-text {
+    width: 100%;
+  }
+  .content .container .coming-holder .coming-text h1 {
+    padding-top: 40px;
+    text-align: center;
+    font-size: 60px;
+    line-height: 70px;
+  }
+  .content .container .coming-holder .coming-text .wave {
+    flex-grow: 1;
+  }
+  .content .container .coming-holder .coming-text .subtitle {
+    font-size: 22px;
+    letter-spacing: 10px;
+    text-align: center;
+    margin-bottom: 0px;
+  }
+  .content .container .coming-holder .coming-text .coming-form {
+    margin-top: 12px;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  .content .container .coming-holder .coming-text .coming-form .arrow {
+    display: none;
+  }
+  .content .container .coming-holder .coming-text .coming-form > * {
+    margin: 16px;
+  }
+  .content .container .coming-holder .coming-text .coming-form input {
+    padding: 10px 10px;
+    box-shadow: none;
+    border: 1px solid #084b4f;
+    font-size: 13px;
+  }
+  .content .container .coming-holder .coming-text .links {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .content .container .coming-holder .coming-text .links a:hover {
+    color: white;
+  }
+  .content .container .coming-holder .coming-img .img-box {
+    margin-bottom: 10px;
+  }
+  .projects .container {
+    padding-top: 70px;
+  }
+  .projects .container h2 {
+    text-align: center;
+    padding-bottom: 10px;
+  }
+  .projects .container .cards {
+    justify-content: center;
+    gap: 25px;
+    row-gap: 55px;
+  }
+  .projects .container .cards .card {
+    width: 33%;
+    background-position: center;
+  }
+  .projects .container .cards .card .card-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+/*# sourceMappingURL=responsive.css.map */
